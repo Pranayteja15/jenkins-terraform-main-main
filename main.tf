@@ -24,7 +24,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "pt-tf-bucket-training"
+  bucket = "pt-tf-bucket-training-prod"
   tags = {
     CreadtedBy = "pranay"
   }
